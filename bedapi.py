@@ -1,8 +1,10 @@
 import random
 from flask import Flask, jsonify
+from flask_cors import CORS
 import os
 
 app = Flask(__name__)
+CORS(app)
 
 # Define a list of public hospitals in Delhi
 hospitals = [
