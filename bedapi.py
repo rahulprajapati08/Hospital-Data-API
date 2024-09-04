@@ -62,4 +62,4 @@ def get_hospitals_data():
     return jsonify(hospitals_data)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
